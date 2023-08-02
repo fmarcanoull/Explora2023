@@ -1,0 +1,20 @@
+		
+trial{
+		picture {
+			bitmap $picName;
+			x = 0; y = 0;		
+
+		};
+		delta_time =  $start;
+		code = $label;
+			
+		stimulus_event{
+			sound{
+				wavefile { 
+					filename = $audioName; preload = true;
+				};
+			};
+		};  
+};
+	
+

@@ -1,0 +1,1 @@
+bitmap { filename = $fileName; preload = true;} $bName;
